@@ -1,96 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Ma Bimbo & Code - Accueil</title>
+    <title>Damla Kosem | Portfolio Professionnel</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="./media/favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
+    <div class="container">
+        <header class="hero">
+            <h1>Damla Kosem</h1>
+            <p class="tagline">Étudiante en Développement Web </p>
+            <div class="contact-bar">
+                <span>📍 Metz, France</span> | 
+                <span><a href="mailto:damla.kosem@etu.unilim.fr">damla.kosem@etu.unilim.fr</a></span>
+            </div>
+        </header>
 
-<div class="main-wrapper">
-    
-    <header class="main-header">
-        <div class="video-background">
-            <video autoplay muted loop id="headerVideo" poster="./media/apercu-banniere.JPG"> 
-                <source src="./media/banniere-animee.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la bannière vidéo.
-            </video>
-        </div>
-        <div class="header-content">
-            <h1>Bienvenue dans le Monde de Damla !</h1>
-            <h2>Une personnalité curieuse et persévérante</h2>
-        </div>
-    </header>
-
-    <div class="content-layout"> 
-    
-        <nav class="side-menu">
-            <h3>Menu du Jour 💖</h3>
-            <ul>
-                <li><a href="index.html">🛍️ Ma Page d'Accueil</a></li>
-                <li><a href="article2.html">💪 Mes Progrès & Objectifs</a></li>
-                <li><a href="article3.html">🎓 Ma Formation Idéale</a></li>
-                <li><a href="mailto:damla.kosem@etu.unilim.fr">💌 Me Contacter</a></li>
-            </ul>
+        <nav class="main-nav">
+            <a href="index.html" class="active">Parcours & CV</a>
+            <a href="projets.html">Réalisations</a>
         </nav>
 
-        <div class="content-area">
-
-            <section>
-                <h2>Hello, c'est moi Damla !</h2>
-                <p>Découvrez mon profil, mon histoire et mon initiation passionnée au développement web à travers ce mini-site. Cliquez sur les boutons du menu de gauche pour naviguer !</p>
+        <main class="content">
+            <section class="card">
+                <h2>Profil Professionnel</h2>
+                <p>Anciennement en classe préparatoire aux études de santé, j'ai réorienté mon parcours vers le numérique par passion pour la résolution de problèmes complexes.</p>
+                
+                <div class="skills">
+                    <span class="badge">Persévérance</span>
+                    <span class="badge">Créativité technique</span>
+                    <span class="badge">Autonomie</span>
+                </div>
             </section>
 
-            <article>
-                <h2 id="presentation">✨ Mon Profil & Ma Découverte</h2>
-
-                <p>Je m’appelle Damla Kosem, j’ai 20 ans et j’habite à Metz. Après un baccalauréat général en physique-chimie, SVT et mathématiques complémentaires, j’ai d’abord suivi une prépa médecine. Cette expérience intense m’a appris la rigueur, la discipline et la constance. Même si la médecine ne me correspondait pas, elle m’a donné des réflexes de travail solides qui me servent aujourd’hui dans le domaine du développement web.
-
-Très vite, j’ai compris que ma véritable passion se trouvait ailleurs : dans l’informatique, un univers vivant, créatif et en constante évolution. C’est un domaine où il faut chercher, comprendre, apprendre sans cesse. Et cette idée me passionne.</p>
-
-                <figure class="media-container">
-                    <img src="./media/developpement.JPG"
-                        alt="Illustration créative liant design et code informatique"
-                        class="article-image">
-                    <figcaption>Source : Image libre de droits.</figcaption>
-                </figure>
-
-                <h3>Une anecdote révélatrice</h3>
-                <p>Tout a commencé lors de mes premières années d’études, quand j’ai eu l’occasion d’explorer les bases du développement web. Ce qui m’a frappé, c’est la liberté qu’offre ce domaine. On peut créer, modifier et partager des idées à travers des sites, des applications ou des blogs. Le web est un espace où la créativité rencontre la technique.
-
-Je me souviens d’un soir où je passais des heures à essayer de corriger un bug sur ma console de jeu que j’avais modifiée moi-même. Rien ne fonctionnait, mais j’ai continué, ligne après ligne, jusqu’à trouver la solution. Cette expérience m’a rappelé à quel point la persévérance est ma plus grande force : je ne lâche jamais tant que je n’ai pas compris.</p>
-
-                <h3>Un esprit créatif dans un monde logique</h3>
-                <p>J’aime allier la logique du code à la créativité. J’ai toujours eu ce besoin d’oser, de combiner des couleurs, des idées, des approches différentes, que ce soit dans la mode, l’art ou le numérique. Pour moi, l’informatique, c’est un terrain de jeu intellectuel où la rigueur rencontre la liberté.</p>
-            </article>
-
-            <section>
-                <h3>📈 Synthèse des articles</h3>
-                <table>
-                    <tr>
-                        <th>Article</th>
-                        <th>Thème principal</th>
-                    </tr>
-                    <tr>
-                        <td>Article 1 (Accueil)</td>
-                        <td>Découverte du développement web</td>
-                    </tr>
-                    <tr>
-                        <td>Article 2</td>
-                        <td>Mes forces et axes de progrès</td>
-                    </tr>
-                    <tr>
-                        <td>Article 3</td>
-                        <td>Pourquoi cette formation</td>
-                    </tr>
-                </table>
+            <section class="card api-section">
+                <h2>Informations en temps réel (API)</h2>
+                <div class="api-grid">
+                    <div class="api-item">
+                        <p><strong>Météo locale (Metz) :</strong> <span id="temp">--</span>°C</p>
+                    </div>
+                    <div class="api-item">
+                        <p id="quote">"Chargement d'une citation technique..."</p>
+                    </div>
+                </div>
             </section>
+        </main>
+    </div>
 
-        </div> 
+    <script>
+        // API Météo Metz
+        fetch('https://api.open-meteo.com/v1/forecast?latitude=49.1191&longitude=6.1727&current_weather=true')
+            .then(res => res.json())
+            .then(data => { document.getElementById('temp').innerText = data.current_weather.temperature; });
 
-    </div> </div> </body>
-
+        // API Citations
+        fetch('https://api.quotable.io/random?tags=technology,famous-quotes')
+            .then(res => res.json())
+            .then(data => { document.getElementById('quote').innerText = `"${data.content}" — ${data.author}`; });
+    </script>
+</body>
 </html>
